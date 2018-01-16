@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import AppGuide from '@/pages/common/AppGuide'
 import AppIndex from '@/pages/index/AppIndex'
 import AppFind from '@/pages/find/AppFind'
 import AppHome from '@/pages/home/AppHome'
@@ -10,17 +11,26 @@ export default new Router({
   linkActiveClass: 'active',
   routes: [
     {
-      path: '/',
+      path: '*',
+      redirect: '/guide'
+    },
+    {
+      path: '/guide',
+      name: 'guide',
+      component: AppGuide
+    },
+    {
+      path: '/index',
       name: 'index',
       component: AppIndex
     },
     {
-      path: '/',
+      path: '/find',
       name: 'find',
       component: AppFind
     },
     {
-      path: '/',
+      path: '/home',
       name: 'home',
       component: AppHome
     }

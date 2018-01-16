@@ -1,9 +1,9 @@
 <template>
-  <div id="app">
+  <div class="app">
     <div class="app-content">
       <router-view/>
     </div>
-    <div class="app-nav">
+    <div class="app-nav" v-show="navShow">
       <div class="app-nav-item">
         <router-link to="/index" class="a">
           <span class="icon icon-index" :style="$root.icon"></span>
@@ -25,7 +25,20 @@
 
 <script>
 export default {
-  name: 'app'
+  name: 'app',
+  data () {
+    return {
+      navShow: false
+    }
+  },
+  watch: {
+    '$route' () {
+      this.navShow = this.$router.history.current.name === 'guide' ? 0 : 1
+    }
+  },
+  created () {
+    this.navShow = this.$router.history.current.name === 'guide' ? 0 : 1
+  }
 }
 </script>
 
