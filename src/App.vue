@@ -56,6 +56,7 @@ export default {
   left: 0;
   width: 100%;
   height: $navHeight;
+  background: $bgColor;
   .app-nav-item {
     flex: 1;
     .a {
