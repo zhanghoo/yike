@@ -3,7 +3,7 @@
     {
       "id": 0,
       "type": 0,
-      "cover": "http://localhost:8081/static/images/samuelburgessjohnson_KingNun_Alt2_2_800.jpg",
+      "cover": "./static/images/samuelburgessjohnson_KingNun_Alt2_2_800.jpg",
       "title": "小小的死亡之歌——西方部分作家群像（三）",
       "brief": "死亡如同情欲，如同贫穷，它本身并不使任何作家显得更加高贵，因为如果说作家这一身份的神圣天职是找到某种叙说的意义，找到它们自身的结构，那么几乎是毫无疑问的，在这一寻找的过程中，死亡始终保持了尽职尽责的态度，紧握…",
       "author": "虫二",
@@ -14,7 +14,7 @@
     {
       "id": 1,
       "type": 1,
-      "cover": "http://localhost:8081/static/images/samuelburgessjohnson_THISMUSTBEMYDREAM_WEB_1340_c.png",
+      "cover": "./static/images/samuelburgessjohnson_THISMUSTBEMYDREAM_WEB_1340_c.png",
       "title": "愿做那光中物，愿做那气中烟",
       "brief": "文艺复兴乐队，无疑拥有这两种品质。结合中国传统文人山水审美，在偏于一隅的小城市写下的《回衫》，带给了我们对于民谣的惊喜。",
       "author": "景德镇文艺复兴",
@@ -25,7 +25,7 @@
     {
       "id": 2,
       "type": 2,
-      "cover": "http://localhost:8081/static/images/Pantha.jpg",
+      "cover": "./static/images/Pantha.jpg",
       "title": "",
       "brief": "",
       "author": "Johson",
@@ -36,13 +36,68 @@
     {
       "id": 3,
       "type": 3,
-      "cover": "http://localhost:8081/static/images/p2235810270.jpg",
+      "cover": "./static/images/p2235810270.jpg",
       "title": "生命的反复",
       "brief": "不要温顺地走进这个良夜  激情不能被消沉的暮色淹没  咆哮吧，咆哮，痛斥那光的退缩  智者在临终的时候对黑暗妥协  是因为他们的语言已黯然失色 ",
       "author": "橙曦羽潞",
       "comments": 588,
       "collects": 324,
       "collect": 0
+    }
+  ],
+  "dates": [
+    {
+      "id": 0,
+      "month": "12月",
+      "list": [
+        {
+          "id": 0,
+          "date": "2017/12/04",
+          "cover": "./static/images/samuelburgessjohnson_KingNun_Alt2_2_800.jpg",
+          "selected": 1
+        },
+        {
+          "id": 1,
+          "date": "2017/12/03",
+          "cover": "./static/images/53efedec0bd280b4a6b6e4e12fa52c77fd496e7b145f8-aDyc5Y_fw658.jpeg"
+        },
+        {
+          "id": 2,
+          "date": "2017/12/02",
+          "cover": "./static/images/98629b3370c1bbfef820a0698a7fbbe7f26a50f9196bc-Gq5WuJ_fw658.jpeg"
+        },
+        {
+          "id": 3,
+          "date": "2017/12/01",
+          "cover": "./static/images/a13d4970971f72b1cb1686486c73146cc031f5f31080f-wlL5q3_fw658.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "month": "11月",
+      "list": [
+        {
+          "id": 0,
+          "date": "2017/11/30",
+          "cover": "./static/images/efd9e1f319442831773c6fc94eed6f1c374567922c13a-pOdLSn_fw658.jpeg"
+        },
+        {
+          "id": 1,
+          "date": "2017/11/29",
+          "cover": "./static/images/samuelburgessjohnson_THISMUSTBEMYDREAM_WEB_1340_c.png"
+        },
+        {
+          "id": 2,
+          "date": "2017/11/28",
+          "cover": "./static/images/p2493689511.jpg"
+        },
+        {
+          "id": 3,
+          "date": "2017/11/27",
+          "cover": "./static/images/016dce940619830c5215da0de9430d8fb27df05eac95f-SkJ4f1_fw658.png"
+        }
+      ]
     }
   ]
 }
